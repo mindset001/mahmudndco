@@ -1,0 +1,111 @@
+import React from 'react'
+import New1 from '../../../../public/images/news1.png'
+import Image from 'next/image';
+import { articles } from '../[id]/data';
+function News() {
+    return (
+        <main className='flex flex-col justify-center items-center mt-20'>
+            <div className='w-[80%]  '>
+                <div className='flex justify-between items-center border-b pb-6 border-[#000]'>
+                    <h1 className='text-[#000] font-[600] text-[35px]'>Today News</h1>
+                   
+                </div>
+
+
+                <div className='grid grid-cols-2 mt-10 gap-10 justify-between'>
+                    {data.map((item, i) => (
+                        <div className='flex gap-8'>
+                            <div>
+                                <Image src={item.image} alt='' className='h-[387px] w-[210px]'/>
+                            </div>
+                            <div className='w-[254px]'>
+                                <p>{item.date}</p>
+                                <h1 className='text-[#CDA233] text-[20px] font-[600] my-6'>{item.title}</h1>
+                                <div className='w-[254px] h-[1px] bg-black'></div>
+                                <p className='my-6'>{item.description}</p>
+
+                                <button className='border border-[#000] rounded-[36px] h-[52px] w-[144px] flex justify-center items-center text-[#000] hover:bg-[#000] hover:border-none hover:text-[#CDA233]'>Read More</button>
+
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <div className='w-[80%]  mt-20'>
+                <div className='flex justify-between items-center border-b pb-6 border-[#000]'>
+                    <h1 className='text-[#000] font-[600] text-[35px]'>Yesterday News</h1>
+                   
+                </div>
+
+
+                <div className='grid grid-cols-2 gap-10 justify-between mt-10' >
+                    {data.map((item, i) => (
+                        <div className='flex gap-8'>
+                            <div>
+                                <Image src={item.image} alt='' className='h-[387px] w-[210px]'/>
+                            </div>
+                            <div className='w-[254px]'>
+                                <p>{item.date}</p>
+                                <h1 className='text-[#CDA233] text-[20px] font-[600] my-6'>{item.title}</h1>
+                                <div className='w-[254px] h-[1px] bg-black'></div>
+                                <p className='my-6'>{item.description}</p>
+
+                                <button className='border border-[#000] rounded-[36px] h-[52px] w-[144px] flex justify-center items-center text-[#000] hover:bg-[#000] hover:border-none hover:text-[#CDA233]'>Read More</button>
+
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <button className='mt-20 border border-[#000] rounded-[36px] h-[52px] w-[144px] flex justify-center items-center text-[#000] hover:bg-[#000] hover:border-none hover:text-[#fff]'>See More</button>
+        </main>
+    )
+}
+
+export default News
+
+
+const data = [
+    {
+        date: '26 Jan. 2024',
+        image: New1,
+        title: 'Character Reference & Support Letters for the criminal court', description: 'Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.'
+    },
+    {
+        date: '26 Jan. 2024',
+        image: New1,
+        title: 'Character Reference & Support Letters for the criminal court', description: 'Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.'
+    },
+    {
+        date: '26 Jan. 2024',
+        image: New1,
+        title: 'Character Reference & Support Letters for the criminal court', description: 'Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.'
+    },
+    {
+        date: '26 Jan. 2024',
+        image: New1,
+        title: 'Character Reference & Support Letters for the criminal court', description: 'Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.'
+    },
+    {
+        date: '26 Jan. 2024',
+        image: New1,
+        title: 'Character Reference & Support Letters for the criminal court', description: 'Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.'
+    },
+    {
+        date: '26 Jan. 2024',
+        image: New1,
+        title: 'Character Reference & Support Letters for the criminal court', description: 'Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.'
+    },
+    {
+        date: '26 Jan. 2024',
+        image: New1,
+        title: 'Character Reference & Support Letters for the criminal court', description: 'Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.'
+    },
+    {
+        date: '26 Jan. 2024',
+        image: New1,
+        title: 'Character Reference & Support Letters for the criminal court', description: 'Our commitment to excellence, client-focused approach, andaproven track record set us apart as your premier legal partner.'
+    },
+];

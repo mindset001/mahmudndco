@@ -1,0 +1,28 @@
+import React from 'react'
+import Right from '../../../../public/images/right2.png'
+import Image from 'next/image'
+
+function About() {
+  return (
+    <main className='hero-about flex justify-center items-center'> 
+       <div className='w-[80%] flex justify-between '>
+        <div className='w-1/2 font-[500] text-[35px]'><h1>About the Firm.</h1></div>
+        <div className='w-1/2 flex flex-col gap-4 text-[16px] font-[400]'>
+            <p>M.A. Mahmud SAN & Co is a leading cross border
+                 law firm dedicated to providing tailored legal services, creating timely and efficient legal solutions. </p>
+                 <p>
+                 Our team of professionals are characterised by their 
+                 scholastic background from reputable Universities and 
+                 possess excellent reputation for quality service delivery and strict adherence ethical standards.</p>
+
+                 <button className='flex items-center gap-2 font-[700] mt-6'>
+                    <p>Read More</p>
+                    <Image src={Right} alt='' className='w-[18px] h-[18px]'/>
+                 </button>
+        </div>
+       </div>
+    </main>
+  )
+}
+
+export default About
