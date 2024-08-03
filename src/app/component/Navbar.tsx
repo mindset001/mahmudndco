@@ -16,14 +16,14 @@ const Navbar = () => {
   };
 
   return (
-    <main className='px-20 py-6 z-10'>
+    <main className='px-20 py-4 z-10'>
       <div className='flex justify-between items-center'>
-        <div className='flex w-[70%] justify-between items-center'>
-          <Link href='/'><Image src={Logo} alt='' className='w-[120px] h-[120px]' /></Link>
+        <div className='flex w-[75%] justify-between items-center'>
+          <Link href='/'><Image src={Logo} alt='' className='w-[100px] h-[100px]' /></Link>
           <div className='flex gap-6'>
             {Nav.map((item, i) => (
               <div
-                className='font-[700] text-[16px] relative'
+                className='font-[700] text-[14px] mt-[-20px] relative'
                 key={i}
                 onMouseEnter={() => item.submenu && handleMouseEnter(i)}
                 onMouseLeave={() => item.submenu && handleMouseLeave(i)}
@@ -46,8 +46,8 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-        <div className='mt-[-20px]'>
-          <button className='bg-[#CDA233] rounded-[36px] px-8 py-4 font-[700] text-[16px]'>Hire Us</button>
+        <div className='mt-[-40px]'>
+          <button className='bg-[#CDA233] rounded-[36px] px-6 py-2 font-[700] text-[14px]'>Hire Us</button>
         </div>
       </div>
     </main>
