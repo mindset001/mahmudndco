@@ -2,6 +2,7 @@ import React from 'react'
 import New1 from '../../../../public/images/news1.png'
 import Image from 'next/image';
 import { articles } from '../[id]/data';
+import Link from 'next/link';
 function News() {
     return (
         <main className='flex flex-col justify-center items-center mt-20'>
@@ -13,18 +14,18 @@ function News() {
 
 
                 <div className='grid grid-cols-2 mt-10 gap-10 justify-between'>
-                    {data.map((item, i) => (
+                    {articles.map((item, i) => (
                         <div className='flex gap-8'>
                             <div>
-                                <Image src={item.image} alt='' className='h-[387px] w-[210px]'/>
+                                <Image src={item.image2} alt='' className='h-[387px] w-[210px]'/>
                             </div>
                             <div className='w-[254px]'>
                                 <p>{item.date}</p>
                                 <h1 className='text-[#CDA233] text-[20px] font-[600] my-6'>{item.title}</h1>
                                 <div className='w-[254px] h-[1px] bg-black'></div>
-                                <p className='my-6'>{item.description}</p>
+                                <p className='my-6'>{item.content}</p>
 
-                                <button className='border border-[#000] rounded-[36px] h-[52px] w-[144px] flex justify-center items-center text-[#000] hover:bg-[#000] hover:border-none hover:text-[#CDA233]'>Read More</button>
+                                <Link href={`/news/${item.id}`}><button className='border border-[#000] rounded-[36px] h-[52px] w-[144px] flex justify-center items-center text-[#000] hover:bg-[#000] hover:border-none hover:text-[#CDA233]'>Read More</button></Link>
 
                             </div>
                         </div>
