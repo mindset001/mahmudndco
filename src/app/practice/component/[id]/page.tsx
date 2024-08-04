@@ -124,8 +124,8 @@ function Page({ params }: ArticlePageProps) {
                             <h1 className='text-[20px] font-[500]'>Our Practice Areas</h1>
                             <Divider className='bg-black w-[190px]' />
                             {articles.map((item, i) => (
-                                <div>
-                                   <Link href={`/practice/component/${item.id}`}> <p>{item.title}</p></Link>
+                                <div key={i} className='flex flex-col gap-4'>
+                                   <Link href={`/practice/component/${item.id}`}> <p className='text-[#00000080] text-[14px] font-[400] hover:text-black'>{item.title}</p></Link>
                                 </div>
                             ))}
 

@@ -28,7 +28,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Energy Law',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -46,7 +46,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Corporate Transaction/Cross Border Transactions',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -65,7 +65,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Securities Regulation',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -83,7 +83,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Financial Services',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -101,7 +101,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Economic Regulation',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -120,7 +120,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'IT & Telecommunication',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -138,7 +138,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Property Law & Coveyance',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -156,7 +156,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Human Right',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -175,7 +175,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Intellectual Property',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -193,7 +193,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Aviation ',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -211,7 +211,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Maritime',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -230,7 +230,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Tax matters/Agents',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -248,7 +248,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'International Legal Consultants/Advisory',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -266,7 +266,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Legal Training',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -285,7 +285,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Alternative Dispute Resolution',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,
@@ -303,7 +303,7 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
         image2: New3.src, // Adjusted for correct handling of image paths
         name: 'Issa Abba',
         name2: 'Issa Abba',
-        title: 'General Litigation',
+        title: 'Election Petition/Election Petition Matters',
         description: `At our law firm, our experienced team of litigators is dedicated to providing comprehensive General Litigation services tailored to meet the diverse legal needs of our clients.
 
 At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiring a personalised approach. Our commitment to excellence, attention to detail, and strategic advocacy set us apart. Whether through negotiation, alternative dispute resolution, or courtroom litigation, we are relentless in pursuing the best possible outcome for our clients.`,

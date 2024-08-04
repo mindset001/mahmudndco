@@ -1,5 +1,5 @@
 import React from 'react'
-import Lady from '../../../../public/images/lady.png'
+import Lady from '../../../../public/images/hair.png'
 import Image from 'next/image'
 import { title } from 'process'
 
@@ -7,7 +7,7 @@ function Mission() {
   return (
     <main className='flex justify-center items-center mt-20'>
         <div className='w-[80%] flex justify-between items-center'>
-            <div>
+            <div className='w-[40%]'>
             <div>
                 <h1 className='text-[35px] font-[600]'>Our Mission</h1>
                 <div className='flex flex-col gap-10 mt-6'>
@@ -34,7 +34,7 @@ function Mission() {
             </div>
             </div>
             <div>
-                <Image src={Lady} alt='' className='w-[602px] '/>
+                <Image src={Lady} alt='' className='w-[502px] '/>
             </div>
         </div>
     </main>

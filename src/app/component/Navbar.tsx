@@ -62,10 +62,10 @@ const Nav = [
   {
     name: 'Our Talents', link: '', submenu: [
       { name: 'Principal Partners', link: '/principal' },
-      { name: 'Partners', link: '/partner' },
-      { name: 'Head of Department', link: '/hod' },
-      { name: 'Senior Counsel', link: '/senior-counsel' },
-      { name: 'Counsel', link: '/counsel' },
+      { name: 'Legal Staff', link: '/partner' },
+      { name: 'Admin Staff', link: '/hod' },
+      // { name: 'Senior Counsel', link: '/senior-counsel' },
+      // { name: 'Counsel', link: '/counsel' },
     ]
   },
   { name: 'Our Practice Areas', link: '/practice' },

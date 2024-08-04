@@ -11,15 +11,16 @@ function Body() {
         <div className='grid grid-cols-3 gap-8 my-8'>
           {articles.map((article, i) => (
             <div key={i} className=''>
+              <Link href={`/practice/component/${article.id}`}>
               <div
-                className='relative w-[360px] h-[181.61px] bg-cover bg-center flex justify-center items-center cursor-pointer'
+                className='relative w-[280px] h-[181.61px] bg-cover bg-center rounded-[20px] flex justify-center items-center cursor-pointer'
                 style={{ backgroundImage: `url(${article.image})` }}
               >
                 <div className='absolute inset-0 bg-[#CDA233] opacity-50 hover:opacity-0 transition-opacity rounded-[20px]'></div>
                 <div className='text-white p-2 relative z-10'>
-                  <p className='font-bold text-[28px]'>{article.title}</p>
+                  <p className='font-[500] text-[24px] text-center'>{article.title}</p>
                 </div>
-              </div>
+              </div></Link>
             </div>
           ))}
         </div>
