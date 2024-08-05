@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Comma from '../../../../../public/images/comma.png';
-import Man from '../../../../../public/images/man2.png'
+import Comma from '../../../../public/images/comma.png';
+import Man from '../../../../public/images/man2.png'
 import { Divider } from 'antd';
-import { articles } from '../data';
+import { articles } from '../component/data';
 import { notFound } from 'next/navigation';
 import Newsletter from '@/app/component/Newsletter2';
 
@@ -30,13 +30,14 @@ function Page({ params }: ArticlePageProps) {
 
     return (
         <main >
-          <div className='flex flex-col justify-center items-center'>
-          <div className='w-full bg-[#000] mt-[-60px] text-[#fff] h-[30vh] flex flex-col items-center justify-center'>
+            <div className='w-full bg-[#000] mt-[-60px] text-[#fff] h-[30vh] flex flex-col items-center justify-center'>
             <div className='w-[70%]'>
             <h1 className='text-[44px] font-[600]'>{article.title}</h1>
             </div>
             
         </div>
+          <div className='flex flex-col justify-center items-center'>
+          
             <div className='w-[80%] my-20'>
                 <div className="px-4 w-full">
                     <div className="flex">

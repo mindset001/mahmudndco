@@ -31,13 +31,14 @@ function Page({ params }: ArticlePageProps) {
 
     return (
         <main >
-            <div className='flex flex-col justify-center items-center'>
-                <div className='w-full bg-[#000] mt-[-60px] text-[#fff] h-[30vh] flex flex-col items-center justify-center'>
+            <div className='w-full bg-[#000] mt-[-60px] text-[#fff] h-[30vh] flex flex-col items-center justify-center'>
                     <div className='w-[70%]'>
                         <h1 className='text-[44px] font-[600]'>{article.title}</h1>
                     </div>
 
                 </div>
+            <div className='flex flex-col justify-center items-center'>
+                
                 <div className='w-[80%] my-20 flex justify-between'>
                     <div className="px-4 w-[65%]">
                         <div className="flex">
@@ -56,7 +57,7 @@ function Page({ params }: ArticlePageProps) {
                                         <p>{article.description}</p>
 
                                         <p className='my-6'>{article.dept}</p>
-                                        <p>{article.content}</p>
+                                        {/* <p>{article.content}</p> */}
                                     </div>
                                 </div>
                                 <Divider className='mt-20' />

@@ -27,12 +27,14 @@ function Page({ params }: ArticlePageProps) {
     const nextArticle = currentArticleIndex < articles.length - 1 ? articles[currentArticleIndex + 1] : null;
 
     return (
-        <main className='flex flex-col justify-center items-center'>
+        <main >
             <div className='w-full bg-[#000] mt-[-60px] text-[#fff] h-[30vh] flex flex-col items-center justify-center'>
                 <div className='w-[70%]'>
                     <h1 className='text-[36px] font-[600]'>{article.title}</h1>
                 </div>
             </div>
+            <div className='flex flex-col justify-center items-center'>
+            
             <div className='w-[80%] my-20'>
                 <div className="container mx-auto px-4">
                     <div className="flex">
@@ -128,6 +130,7 @@ function Page({ params }: ArticlePageProps) {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </main>
     );

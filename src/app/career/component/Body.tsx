@@ -16,7 +16,7 @@ function Body() {
                 <p  className='text-[16px] font-[400] my-6'>Our team of professionals are characterised by their scholastic background from reputable Universities and possess excellent reputation for quality service delivery and strict adherence ethical standards.</p>
                     <Divider className='my-10 bg-black'/>
                 {articles.map((article, i) => (
-                    <Link href={`/career/component/${article.id}`} className='mt-6'>
+                    <Link href={`/career/${article.id}`} className='mt-6'>
                         <div key={i} className='flex gap-4 items-center '>
                        <div className='border flex justify-between p-4 items-center w-full hover:bg-[#FFF1C6] hover:border-none'>
                        <p className='text-[25px] font-[500]'>{article.title}</p>
