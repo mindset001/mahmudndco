@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Man from '../../../../public/images/man.png'
+import Man from '../../../../public/images/principal.png'
 import { Divider, Select } from 'antd'
 
 function Body() {
@@ -9,15 +9,17 @@ function Body() {
             <div className='w-[80%] flex justify-between'>
                 <div className='w-[45%]'>
                     <div>
-                        <h1 className='text-[28px] font-[500]'>Isa Abbas</h1>
+                        <h1 className='text-[28px] font-[500] capitalize'>Mahmud Abubakar Magaji, SAN</h1>
                         <h2 className='text-[20px] font-[600]'>Principal Partner</h2>
                         <Divider className='bg-black w-[80%]'/>
 
                         <div>
                         <h1 className='text-[28px] font-[500]'>Background</h1>
-                        <p className='font-[400] text-[16px] text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi vestibulum leo, ac luctus arcu lorem ultricies arcu. Fusce sed enim venenatis, interdum lorem eget, semper dolor. Praesent nisi diam, varius et pretium in, venenatis sed enim. Nullam feugiat euismod nulla, nec eleifend eros tincidunt et. Nulla mattis lacus nec nulla auctor, in tempus velit iaculis. Praesent risus libero, sodales id risus nec, rutrum consectetur quam.
-                             Curabitur tincidunt est eget nulla semper elementum. Nam vulputate fringilla ligula ac commodo.</p>
-                             <p className='mt-4 font-[400] text-[16px] text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi vestibulum leo, ac luctus arcu lorem ultricies arcu. Fusce sed enim venenatis, interdum lorem eget, semper dolor. Praesent nisi diam, </p>
+                        <p className='font-[400] text-[16px] text-justify'>Mahmud Abubakar Magaji, SAN obtained a diploma in Law in 1985 and an LLB in 1989 from University of Maiduguri. He was called to the Nigeria Bar in 1990. He also won the best prize for Criminal Law.
+                        Mahmud Abubakar Magaji has practiced extensively before all the Superior Courts of records in Nigeria on matters relating to Labour, Employment, Capital Market, Telecommunication, Law of Contracts, Taxation, Banking and Finance as well as Election related matters. He also renders advisory services to Financial Institutions, Corporate Organizations, Government Agencies and Multinational Companies.</p>
+                             <p className='mt-4 font-[400] text-[16px] text-justify'>He has held several positions including Executive Secretary, Niger States Pilgrims Welfare Board, Secretary/Legal Adviser, Kabo Holdings. He is Chairman of Niger State Basket Ball Association; Member New York Council of Arbitration; Member International Institute of Arbitration, London; Member Advocate for Societal and Intellectual Development (A.S.I.D); Member FCT Judicial Service Commission; Member Nigeria Bar Association Group Affinity Plan; Member Institute of Management Consultants (IMC-Nigeria); He was also appointed by the Chief Justice of Nigeria as Assessor to the Governing Bopard Disciplinary Committee of the Medical Laboratory Science Council of Nigeria (MLSCN). He is currently the Principal of Mahmud &Co., a burgeoning law firm with outstanding Legal team he heads with a reputable legal resource</p>
+                             <p className='mt-4 font-[400] text-[16px] text-justify'>Mahmud A. Magaji, SAN has handled a wide range case bothering on Constitutional, Criminal and Civil Law. He is also a vast in Alternative Dispute Resolution. Being a Trial Lawyer with astute advocacy skill, this he brings to bare in his expertise in the various trials and advocacy he has handled over the years. </p>
+                             <p className='mt-4 font-[400] text-[16px] text-justify'>Mahmud Abubakar Magaji’s SAN practice emphasizes business, civil, criminal litigation, ADR, Corporate/real estates, Oil and Gas, Election matters and Criminal matters. His representative clients include leaders, developers, lessors, investors, corporations and creditors.</p>
                         </div>
                     </div>
                     <div>
@@ -33,9 +35,12 @@ function Body() {
                     <div>
                     <h1 className='text-[28px] font-[500] mt-10'>Practice Areas</h1>
                         <ul className='list-disc flex flex-col gap-4 text-[16px] mt-2'>
-                            <li>General Litigation</li>
-                            <li>Human Rights</li>
-                            <li>Financial Services</li>
+                            <li>Civil Litigation</li>
+                            <li>Criminal Litigation</li>
+                            <li>ADR</li>
+                            <li>Corporate/real estates</li>
+                            <li>Oil and Gas</li>
+                            <li>Election matters </li>
                         </ul>
                     </div>
                 </div>
