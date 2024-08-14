@@ -1,6 +1,6 @@
 import React from 'react'
 import Right from '../../../../public/images/right2.png'
-import Man from '../../../../public/images/man.png'
+import Man from '../../../../public/images/partner1.png'
 import Man2 from '../../../../public/images/man2.png'
 import Man3 from '../../../../public/images/man3.png'
 import Man4 from '../../../../public/images/man4.png'
