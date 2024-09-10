@@ -12,14 +12,30 @@ function Footer() {
    <main>
         <div className='w-full flex flex-col items-center justify-center mt-20 my-10'>
 
-            <div className='w-[80%] flex justify-between items-center'>
+            <div className='w-[80%] flex justify-center md:justify-between items-center'>
                 <Image src={Logo} alt='' className='w-[180px] h-[180px]'/>
-                <div className='h-[0.5px] w-[80%] bg-[#000000]'></div>
+                <div className='hidden md:block h-[0.5px] w-[80%] bg-[#000000]'></div>
                 
             </div>
-            <div className='w-[60%] flex justify-between ml-[15%]'>
-                <div className='w-1/3'>
-                    <h1 className='text-[20px] font-[600]'>Quick Links</h1>
+            <div className='md:hidden md:w-1/3 text-center md:text-left px-5 md:px-0 mt-6'>
+                    <h1 className='text-[20px] font-[600]'>Contact Us</h1>
+                    <div className='flex flex-col gap-6 mt-6'>
+                    {Nav3.map((item, i) => (
+                        <ul className='font-[400] text-[14px] '>
+                            <li>{item.name}</li>
+                        </ul>
+                    ))}
+                     <div className='hidden md:flex gap-6 '>
+                        <Image src={Facebook} alt='' className='w-[18px] h-[18px]'/>
+                        <Image src={Insta} alt='' className='w-[18px] h-[18px]'/>
+                        <Image src={Linked} alt='' className='w-[18px] h-[18px]'/>
+                        <Image src={Twit} alt='' className='w-[18px] h-[18px]'/>
+                    </div>
+                </div>
+                </div>
+            <div className='md:w-[60%] flex flex-col md:flex-row justify-between md:ml-[15%]'>
+                <div className='md:w-1/3 text-center md:text-left px-5 md:px-0 mt-6'>
+                    <h1 className='text-[20px] font-[600] '>Quick Links</h1>
                     <div className='flex flex-col gap-6 mt-6'>
                     {Nav.map((item, i) => (
                         <ul className='font-[400] text-[14px] uppercase'>
@@ -29,7 +45,7 @@ function Footer() {
                 </div>
                 </div>
 
-                <div className='w-1/3'>
+                <div className='md:w-1/3 text-center md:text-left px-5 md:px-0 mt-6'>
                     <h1 className='text-[20px] font-[600]'>Practice Area</h1>
                     <div className='flex flex-col gap-6 mt-6'>
                     {Nav2.map((item, i) => (
@@ -41,7 +57,7 @@ function Footer() {
                 </div>
                 </div>
 
-                <div className='w-1/3'>
+                <div className='hidden md:block md:w-1/3 text-center md:text-left px-5 md:px-0 mt-6'>
                     <h1 className='text-[20px] font-[600]'>Contact Us</h1>
                     <div className='flex flex-col gap-6 mt-6'>
                     {Nav3.map((item, i) => (
@@ -49,7 +65,7 @@ function Footer() {
                             <li>{item.name}</li>
                         </ul>
                     ))}
-                     <div className='flex gap-6'>
+                     <div className='hidden md:flex gap-6 '>
                         <Image src={Facebook} alt='' className='w-[18px] h-[18px]'/>
                         <Image src={Insta} alt='' className='w-[18px] h-[18px]'/>
                         <Image src={Linked} alt='' className='w-[18px] h-[18px]'/>
@@ -60,8 +76,8 @@ function Footer() {
 
             </div>
             <div className='w-[80%]'>
-            <Divider className='bg-black font-[700] mt-40'/>
-            <p className='text-center'>Copyright © 2023 Asteria. All rights reserved.</p>
+            <Divider className='bg-black font-[700] md:mt-40'/>
+            <p className='text-[12px] md:text-[20px] text-center'>Copyright © 2023 Asteria. All rights reserved.</p>
             </div>
         </div>
    </main>
