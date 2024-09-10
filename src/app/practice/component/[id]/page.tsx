@@ -32,17 +32,17 @@ function Page({ params }: ArticlePageProps) {
     return (
         <main >
             <div className='w-full bg-[#000] mt-[-60px] text-[#fff] h-[30vh] flex flex-col items-center justify-center'>
-                    <div className='w-[70%]'>
-                        <h1 className='text-[44px] font-[600]'>{article.title}</h1>
+                    <div className=' md:w-[70%]'>
+                        <h1 className='text-[30px] md:text-[44px] font-[600]'>{article.title}</h1>
                     </div>
 
                 </div>
             <div className='flex flex-col justify-center items-center'>
                 
-                <div className='w-[80%] my-20 flex justify-between'>
-                    <div className="px-4 w-[65%]">
+                <div className='w-[80%] my-20 flex flex-col md:flex-row justify-between'>
+                    <div className="px-4 md:w-[65%]">
                         <div className="flex">
-                            <div className="w-full pr-8">
+                            <div className="w-full md:pr-8">
                                 {/* Main Content */}
                                 <div>
                                     <Image
@@ -99,7 +99,7 @@ function Page({ params }: ArticlePageProps) {
 
                         </div>
                     </div>
-                    <div className='w-[30%]'>
+                    <div className='md:w-[30%]'>
                         <div>
                             <h1 className='text-[20px] font-[500]'>Lawyers</h1>
                             <Divider className='bg-black w-[190px]' />

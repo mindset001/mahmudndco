@@ -5,13 +5,15 @@ import { Divider, Select } from 'antd'
 
 function Body() {
     return (
-        <main className='z-0 w-ful flex justify-center items-center my-40'>
-            <div className='w-[80%] flex justify-between'>
-                <div className='w-[45%]'>
+        <main className='z-0 w-ful flex justify-center items-center my-10 md:my-40'>
+            <div className='w-full md:w-[80%] flex flex-col-reverse md:flex-row justify-center md:justify-between items-center md:items-start'>
+                <div className='w-[80%] md:w-[45%]'>
                     <div>
-                        <h1 className='text-[28px] font-[500] capitalize'>Mahmud Abubakar Magaji, SAN</h1>
+                       <div className='hidden md:block'>
+                       <h1 className='text-[28px] font-[500] capitalize'>Mahmud Abubakar Magaji, SAN</h1>
                         <h2 className='text-[20px] font-[600]'>Principal Partner</h2>
                         <Divider className='bg-black w-[80%]'/>
+                       </div>
 
                         <div>
                         <h1 className='text-[28px] font-[500]'>Background</h1>
@@ -44,9 +46,14 @@ function Body() {
                         </ul>
                     </div>
                 </div>
-                <div className='w-[45%]'>
+                <div className='w-full md:w-[45%] flex flex-col items-center md:items-start'>
+                    <div className='block md:hidden w-[80%]'>
+                    <h1 className='text-[28px] font-[500] capitalize'>Mahmud Abubakar Magaji, SAN</h1>
+                        <h2 className='text-[20px] font-[600]'>Principal Partner</h2>
+                        <Divider className='bg-black w-[80%]'/>
+                    </div>
                     <Image src={Man} alt='' />
-                    <div>
+                    <div className='hidden md:block'>
                         <h1 className='text-[35px] font-[600] my-10'>Contact Lawyer</h1>
                         <form action="" className='w-[80%]'>
                             <div className='w-full flex gap-4'>

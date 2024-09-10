@@ -6,13 +6,13 @@ import { title } from 'process'
 function Values() {
   return (
     <main className='flex justify-center items-center mt-20'>
-        <div className='w-[80%] flex justify-between items-center'>
-        <div className='w-[40%]'>
+        <div className='md:w-[80%] flex flex-col md:flex-row justify-between items-center'>
+        <div className='md:w-[40%]'>
                 <Image src={Lady} alt='' />
             </div>
             <div  >
             <div className=''>
-                <h1 className='text-[35px] font-[600]'>Our Values</h1>
+                <h1 className='text-[28px] md:text-[35px] font-[600] text-center mt-6 md:mt-0'>Our Values</h1>
                 <div className='flex flex-col gap-4 mt-4'>
                     {data.map((item, i )=> (
                         <div
@@ -24,8 +24,8 @@ function Values() {
 
                              
                                 <div  className='group-hover:bg-[#FFF1C680] flex flex-col  gap-2 p-4'>
-                                    <h3 className='text-[#000] text-[28px] font-[500] group-hover:text-[#000]'>{item.title}</h3>
-                                    <p className='text-[#000] text-[14px] font-[400] w-[531px] group-hover:text-[#000] mt-4'>{item.description}</p>
+                                    <h3 className='text-[#000] text-[20px] md:text-[28px] font-[500] group-hover:text-[#000] text-center md:text-left'>{item.title}</h3>
+                                    <p className='text-[#000] text-[10px]  md:text-[14px] font-[400] md:w-[531px] group-hover:text-[#000] mt-4 text-center md:text-left'>{item.description}</p>
                                 </div>
                        
                             </div>
