@@ -6,8 +6,8 @@ import React from 'react'
 function Body() {
     return (
         <main className='flex flex-col justify-center items-center mt-20'>
-            <div className='w-[80%] flex justify-between items-start'>
-                <div className='w-[40%]'>
+            <div className='w-[80%] flex  flex-col md:flex-row justify-between items-start'>
+                <div className='md:w-[40%]'>
                     <div>
                         <h1 className='text-[35px] font-[600] mb-10'>Make An Enquiry</h1>
 
@@ -53,7 +53,7 @@ function Body() {
                     </div>
                 </div>
 
-                <div className='w-[45%]'>
+                <div className='md:w-[45%]'>
                     <div className='flex  gap-4'>
                         <div className='rounded-full bg-[#D9D9D9] h-[67px] w-[68px]'></div>
                         <div>
@@ -81,7 +81,7 @@ function Body() {
                     </div>
 
                     <div className='mt-6'>
-                        <Image src={Tower} alt='' className='w-[500px] h-[500px]'/>
+                        <Image src={Tower} alt='' className='md:w-[500px] md:h-[500px]'/>
                     </div>
                 </div>
             </div>

@@ -31,15 +31,15 @@ function Page({ params }: ArticlePageProps) {
     return (
         <main >
              <div className='w-full bg-[#000] mt-[-60px] text-[#fff] h-[30vh] flex flex-col items-center justify-center'>
-                <div className='w-[70%]'>
-                    <h1 className='text-[36px] font-[600]'>{article.title}</h1>
+                <div className='md:w-[70%]'>
+                    <h1 className='text-[26px] md:text-[36px] font-[600]'>{article.title}</h1>
                 </div>
             </div>
           <div className='flex flex-col justify-center items-center'>
          
             
-            <div className='w-[80%] my-20'>
-                <div className="px-4 w-full">
+            <div className='w-[90%] md:w-[80%] my-20'>
+                <div className="md:px-4 w-full">
                     <div className="flex">
                         <div className="w-full pr-8">
                             {/* Main Content */}
@@ -103,12 +103,12 @@ function Page({ params }: ArticlePageProps) {
                 </div>
 
                 <div className='w-full bg-[#FFF1C6] p-6 mt-10 flex gap-4 items-center'>
-                    <div className=' w-[300px] flex justify-center'>
-                        <Image src={Man} alt='' className='rounded-full border w-[140px] h-[140px]' />
+                    <div className=' md:w-[300px] flex justify-center'>
+                        <Image src={Man} alt='' className='rounded-full border md:w-[140px] md:h-[140px]' />
                     </div>
                     <div>
-                        <h1 className='text-[25px] font-[600]'>John Doe</h1>
-                        <p className='text-[20px] text-justify font-[400]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi vestibulum leo, ac luctus arcu lorem ultricies arcu. Fusce sed enim venenatis, interdum lorem eget, semper dolor. </p>
+                        <h1 className='text-[18px] md:text-[25px] font-[600]'>John Doe</h1>
+                        <p className='text-[14px] md:text-[20px] text-justify font-[400]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis metus metus. Duis cursus, diam vel sollicitudin rhoncus, ex mi vestibulum leo, ac luctus arcu lorem ultricies arcu. Fusce sed enim venenatis, interdum lorem eget, semper dolor. </p>
                     </div>
                 </div>
 
@@ -150,9 +150,9 @@ function Page({ params }: ArticlePageProps) {
 </p>
                 <div className='mt-10'>
                     <form action="">
-                        <textarea name="" id="" placeholder='Your Comment' className='w-[55%] border rounded-[23px] h-[148px] p-2'></textarea>
+                        <textarea name="" id="" placeholder='Your Comment' className='w-full md:w-[55%] border rounded-[23px] h-[148px] p-2'></textarea>
 
-                        <div className='w-[55%] flex gap-4 my-10'>
+                        <div className='w-full md:w-[55%] flex gap-4 my-10'>
                                 <input type='text' placeholder='Type your name...' className='border-b border-[#000000] border-1 outline-none py-2 w-full' />
 
                                 <input type='email' placeholder='Type your email...' className='border-b border-[#000000] border-1 outline-none py-2 w-full' />

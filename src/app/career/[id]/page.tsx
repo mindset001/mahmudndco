@@ -38,10 +38,10 @@ function Page({ params }: ArticlePageProps) {
         </div>
           <div className='flex flex-col justify-center items-center'>
           
-            <div className='w-[80%] my-20'>
+            <div className='w-[90%] md:w-[80%] my-20'>
                 <div className="px-4 w-full">
                     <div className="flex">
-                        <div className="w-full pr-8">
+                        <div className="w-full md:pr-8">
                             {/* Main Content */}
                             <div>
                                 <Image
@@ -113,9 +113,9 @@ function Page({ params }: ArticlePageProps) {
 </p>
                 <div className='mt-10'>
                     <form action="">
-                        <textarea name="" id="" placeholder='Your Comment' className='w-[55%] border rounded-[23px] h-[148px] p-2'></textarea>
+                        <textarea name="" id="" placeholder='Your Comment' className='w-full md:w-[55%] border rounded-[23px] h-[148px] p-2'></textarea>
 
-                        <div className='w-[55%] flex gap-4 my-10'>
+                        <div className='w-full md:w-[55%] flex gap-4 my-10'>
                                 <input type='text' placeholder='Type your name...' className='border-b border-[#000000] border-1 outline-none py-2 w-full' />
 
                                 <input type='email' placeholder='Type your email...' className='border-b border-[#000000] border-1 outline-none py-2 w-full' />

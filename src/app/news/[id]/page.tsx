@@ -29,16 +29,16 @@ function Page({ params }: ArticlePageProps) {
     return (
         <main >
             <div className='w-full bg-[#000] mt-[-60px] text-[#fff] h-[30vh] flex flex-col items-center justify-center'>
-                <div className='w-[70%]'>
-                    <h1 className='text-[36px] font-[600]'>{article.title}</h1>
+                <div className='w-[80%] md:w-[70%]'>
+                    <h1 className='text-[20px] md:text-[36px] font-[600]'>{article.title}</h1>
                 </div>
             </div>
             <div className='flex flex-col justify-center items-center'>
             
-            <div className='w-[80%] my-20'>
+            <div className='w-[90%] md:w-[80%] my-20'>
                 <div className="container mx-auto px-4">
-                    <div className="flex">
-                        <div className="w-3/4 pr-8">
+                    <div className="flex flex-col md:flex-row">
+                        <div className="md:w-3/4 md:pr-8">
                             {/* Main Content */}
                             <div>
                                 <Image
@@ -93,7 +93,7 @@ function Page({ params }: ArticlePageProps) {
                                 )}
                             </div>
                         </div>
-                        <div className="w-1/4 pl-8">
+                        <div className="md:w-1/4 md:pl-8 mt-20 md:mt-0 ">
                             {/* Sidebar */}
                             <div className="sticky top-4">
                                 <div>

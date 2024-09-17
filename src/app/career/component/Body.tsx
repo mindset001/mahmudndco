@@ -10,8 +10,8 @@ function Body() {
     <main className='mt-20 flex flex-col justify-center items-center'>
 
    
-            <div className='w-[80%] flex justify-between'>
-            <div className='w-[40%] text-justify'>
+            <div className='w-[90%] md:w-[80%] flex flex-col-reverse md:flex-row justify-between'>
+            <div className='md:w-[40%] text-justify mt-10 md:mt-0'>
                 <p className='text-[16px] font-[400]'>M.A. Mahmud SAN & Co is a leading cross border law firm dedicated to providing tailored legal services, creating timely and efficient legal solutions. </p>
                 <p  className='text-[16px] font-[400] my-6'>Our team of professionals are characterised by their scholastic background from reputable Universities and possess excellent reputation for quality service delivery and strict adherence ethical standards.</p>
                     <Divider className='my-10 bg-black'/>
@@ -26,7 +26,7 @@ function Body() {
                     </Link>
                 ))}
             </div>
-            <div className='w-[45%]'>
+            <div className='md:w-[45%]'>
                 <Image src={Gig} alt=''/>
             </div>
         </div>

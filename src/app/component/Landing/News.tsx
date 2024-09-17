@@ -19,7 +19,7 @@ function News() {
                     {data.map((item, i) => (
                         <div className='flex gap-8'>
                             <div className='w-1/2'>
-                                <Image src={item.image} alt='' className='md:h-[387px] md:w-[210px]'/>
+                                <Image src={item.image} alt='' className='h-[350px] md:h-[387px] md:w-[210px]'/>
                             </div>
                             <div className='md:w-[254px] w-1/2'>
                                 <p className='text-[10px] md:text-[15px]'>{item.date}</p>
