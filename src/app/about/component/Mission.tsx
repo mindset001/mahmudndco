@@ -1,5 +1,5 @@
 import React from 'react'
-import Lady from '../../../../public/images/principal2.png'
+import Lady from '../../../../public/images/Principal2.png'
 import Image from 'next/image'
 import { title } from 'process'
 
