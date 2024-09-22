@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import React, { useState } from 'react'
 
 function Practice() {
@@ -10,10 +11,12 @@ function Practice() {
             <div className='w-[80%] my-20'>
                 <div className='flex justify-between items-center border-b pb-4 border-[#FFF1C6]'>
                     <h1 className='text-[#CDA233] font-[600] text-[16px] md:text-[35px]'>Our Practice Areas</h1>
+                    <Link href='/practice'>
                     <button className='flex items-center gap-2'>
                         <p className='text-[12px] font-[700] text-[#FFFFFF]'>Read More</p>
                         <div className='border border-[#CDA233] rounded-[50px] md:h-[40px] h-[20px] md:w-[40px] w-[20px] flex justify-center items-center text-[#CDA233]'>{'>'}</div>
                     </button>
+                    </Link>
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-4'>

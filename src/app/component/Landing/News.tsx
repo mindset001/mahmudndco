@@ -1,6 +1,7 @@
 import React from 'react'
 import New1 from '../../../../public/images/news1.png'
 import Image from 'next/image';
+import Link from 'next/link';
 
 function News() {
     return (
@@ -8,10 +9,12 @@ function News() {
             <div className='w-[80%]  '>
                 <div className='flex justify-between items-center border-b pb-6 border-[#000]'>
                     <h1 className='text-[#000] font-[600] text-[16px] md:text-[35px]'>Latest News</h1>
+                    <Link href='/news'>
                     <button className='flex items-center gap-2'>
                         <p className='text-[12px] md:text-[14px] font-[700] text-[#000]'>Read More</p>
                         <div className='border border-[#000] rounded-[50px] h-[20px] w-[20px] flex justify-center items-center text-[#000]'>{'>'}</div>
                     </button>
+                    </Link>
                 </div>
 
 

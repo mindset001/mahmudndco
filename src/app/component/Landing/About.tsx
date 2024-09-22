@@ -1,6 +1,7 @@
 import React from 'react'
 import Right from '../../../../public/images/right2.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function About() {
   return (
@@ -15,10 +16,12 @@ function About() {
                  scholastic background from reputable Universities and 
                  possess excellent reputation for quality service delivery and strict adherence ethical standards.</p>
 
-                 <button className='flex justify-center md:justify-normal items-center gap-2 font-[700] mt-6'>
+               <Link href='/about'>
+               <button className='flex justify-center md:justify-normal items-center gap-2 font-[700] mt-6'>
                     <p>Read More</p>
                     <Image src={Right} alt='' className='w-[18px] h-[18px]'/>
                  </button>
+               </Link>
         </div>
        </div>
     </main>

@@ -6,6 +6,7 @@ import Twit from '../../../public/images/twit.png'
 import Facebook from '../../../public/images/facebook.png'
 import Insta from '../../../public/images/insta.png'
 import { Divider } from 'antd'
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -39,7 +40,9 @@ function Footer() {
                     <div className='flex flex-col gap-6 mt-6'>
                     {Nav.map((item, i) => (
                         <ul className='font-[400] text-[14px] uppercase'>
+                            <Link href={item.link}>
                             <li>{item.name}</li>
+                            </Link>
                         </ul>
                     ))}
                 </div>
@@ -50,7 +53,9 @@ function Footer() {
                     <div className='flex flex-col gap-6 mt-6'>
                     {Nav2.map((item, i) => (
                         <ul className='font-[400] text-[14px] '>
+                            <Link href={item.link}>
                             <li>{item.name}</li>
+                            </Link>
                         </ul>
                     ))}
                    
@@ -62,7 +67,9 @@ function Footer() {
                     <div className='flex flex-col gap-6 mt-6'>
                     {Nav3.map((item, i) => (
                         <ul className='font-[400] text-[14px] '>
+                   
                             <li>{item.name}</li>
+                           
                         </ul>
                     ))}
                      <div className='hidden md:flex gap-6 '>
@@ -87,19 +94,19 @@ function Footer() {
 export default Footer
 
 const Nav = [
-    {name:'NEWS', link: ''},
-    {name:'OUR TALENT', link: ''},
-    {name:'ABOUT US', link: ''},
-    {name:'NEWSLETTERS', link: ''},
+    {name:'NEWS', link: '/news'},
+    {name:'OUR TALENT', link: '/partner'},
+    {name:'ABOUT US', link: '/about'},
+    {name:'NEWSLETTERS', link: '/newsletter'},
     {name:'PRIVACY POLICY', link: ''},
 ]
 
 const Nav2 = [
-    {name:'General Litigation', link: ''},
-    {name:'Energy Law', link: ''},
-    {name:'Financial Services', link: ''},
-    {name:'Human Right', link: ''},
-    {name:'Intellectual Property', link: ''},
+    {name:'General Litigation', link: '/practice/component/1'},
+    {name:'Energy Law', link: '/practice/component/2'},
+    {name:'Financial Services', link: '/practice/component/5'},
+    {name:'Human Right', link: '/practice/component/9'},
+    {name:'Intellectual Property', link: '/practice/component/10'},
 ]
 
 const Nav3 = [
