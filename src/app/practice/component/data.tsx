@@ -1,15 +1,38 @@
 import New1 from '../../../../public/images/general.png';
 import New2 from '../../../../public/images/man2.png';
 import New3 from '../../../../public/images/workers.png';
+import Hauwa from '../../../../public/images/hauwa.png';
+import Principal from '../../../../public/images/principal.png';
+import Benita from '../../../../public/images/benita.png';
+import Ayeye from '../../../../public/images/ayeye.png';
+import Clement from '../../../../public/images/clement.png';
+import Partner from '../../../../public/images/partner1.png';
+import Edet from '../../../../public/images/edet.png';
+import Bunmi from '../../../../public/images/bunmi.png';
+import Ede from '../../../../public/images/ede.png';
+import Firdausi from '../../../../public/images/firdausi.png';
+import Chioma from '../../../../public/images/chioma.png';
+import Efut from '../../../../public/images/efut.png';
+import Adedeji from '../../../../public/images/adedeji.png';
+import Zukogi from '../../../../public/images/zukogi.png';
+import Badmos from '../../../../public/images/badmos.png';
+import Aliyu from '../../../../public/images/aliyu.png';
+import Hamidu from '../../../../public/images/tukur.png';
 
 export const articles = [
         {
                 id: 1,
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
-                image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image2: New3.src, 
+                image3: Principal.src,
+                image4: Hauwa.src,// Adjusted for correct handling of image paths
+                name: 'MAHMUD ABUBAKAR MAGAJI,',
+                name2: ' HAUWA TUMAKA YUSUF',
+                post: 'Principal Partner',
+                post2: 'Senior Counsel',
+                link: '/principal',
+                link2: '/hauwa',
                 title: 'General Litigation',
                 description: `At our law firm, our experienced team of
 litigators is dedicated to providing comprehensive General
@@ -30,8 +53,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Benita.src,
+                image4:'',// Adjusted for correct handling of image paths
+                name: 'BENITA O. ODIGIE',
+                name2: ' ',
+                post: 'counsel',
+                post2: '',
+                link: '/benita',
+                link2: '/',
                 title: 'Energy Law',
                 description: `Discover unparalleled legal support in the energy
 sector at M.A Mahmud SAN & Co. Our adept team
@@ -50,8 +79,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Ayeye.src,
+                image4: '',// Adjusted for correct handling of image paths
+                name: 'DANJUMA G. AYEYE',
+                name2: '',
+                post: 'Senior Counsel',
+                post2: '',
+                link: '/ayeye',
+                link2: '/hauwa',
                 title: 'Corporate Transaction/Cross Border Transactions',
                 description: `Your
 trusted partner for Corporate Transactions and Cross-Border
@@ -74,8 +109,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Principal.src,
+                image4: Hauwa.src,// Adjusted for correct handling of image paths
+                name: 'MAHMUD ABUBAKAR MAGAJI,',
+                name2: ' HAUWA TUMAKA YUSUF',
+                post: 'Principal Partner',
+                post2: 'Senior Counsel',
+                link: '/principal',
+                link2: '/hauwa',
                 title: 'Securities Regulation',
                 description: `Your go-to partner for Securities
 Regulation. Our seasoned team specializes in compliance &
@@ -93,8 +134,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Adedeji.src,
+                image4: '',// Adjusted for correct handling of image paths
+                name: ' RIDWANULLAHI ADEDEJI BAMIGBOYE',
+                name2: ' ',
+                post: 'Senior Counsel',
+                post2: '',
+                link: '/adedeji',
+                link2: '',
                 title: 'Financial Services',
                 description: `Our dedicated team specializes in a
 range of financial matters, ensuring robust legal support
@@ -117,8 +164,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Principal.src,
+                image4: Hauwa.src,// Adjusted for correct handling of image paths
+                name: 'MAHMUD ABUBAKAR MAGAJI,',
+                name2: ' HAUWA TUMAKA YUSUF',
+                post: 'Principal Partner',
+                post2: 'Senior Counsel',
+                link: '/principal',
+                link2: '/hauwa',
                 title: 'Economic Regulation',
                 description: `Ensuring your business aligns with
 evolving economic regulations is crucial. Our experts offer
@@ -139,8 +192,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Zukogi.src,
+                image4: '',// Adjusted for correct handling of image paths
+                name: 'AMINA1 T. ZUKOGI',
+                name2: ' ',
+                post: 'HOD',
+                post2: '',
+                link: '/zukogi',
+                link2: '/',
                 title: 'IT & Telecommunication',
                 description: `Our dedicated team specializes in
 IT and Telecommunication law, offering comprehensive legal
@@ -161,8 +220,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Ede.src,
+                image4: Firdausi.src,// Adjusted for correct handling of image paths
+                name: ' EDE UKO',
+                name2: ' FIRDAUSI IBRAHIM',
+                post: 'Senior Counsel',
+                post2: 'Counsel',
+                link: '/ede',
+                link2: '/firdausi',
                 title: 'Property Law & Coveyance',
                 description: `Our team specializes in
 providing comprehensive services tailored to the complexities
@@ -183,8 +248,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Principal.src,
+                image4: Hauwa.src,// Adjusted for correct handling of image paths
+                name: 'MAHMUD ABUBAKAR MAGAJI,',
+                name2: ' HAUWA TUMAKA YUSUF',
+                post: 'Principal Partner',
+                post2: 'Senior Counsel',
+                link: '/principal',
+                link2: '/hauwa',
                 title: 'Human Right',
                 description: `We specialize in providing comprehensive legal
 services to individuals and organizations striving to uphold
@@ -203,8 +274,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Principal.src,
+                image4: Hauwa.src,// Adjusted for correct handling of image paths
+                name: 'MAHMUD ABUBAKAR MAGAJI,',
+                name2: ' HAUWA TUMAKA YUSUF',
+                post: 'Principal Partner',
+                post2: 'Senior Counsel',
+                link: '/principal',
+                link2: '/hauwa',
                 title: 'Intellectual Property',
                 description: `Our seasoned team specializes in
 safeguarding your creative and innovative assets. From
@@ -223,8 +300,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Badmos.src,
+                image4: '',// Adjusted for correct handling of image paths
+                name: 'ABDULKABIR ABIODUN BADMOS',
+                name2: ' ',
+                post: 'Senior Counsel',
+                post2: '',
+                link: '/badmos',
+                link2: '',
                 title: 'Aviation ',
                 description: `Your destination for expert guidance in Aviation Law. Our dedicated legal team specializes in navigating the
 complexities of the aviation industry. From regulatory
@@ -241,8 +324,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Aliyu.src,
+                image4: '',// Adjusted for correct handling of image paths
+                name: 'ALIYU D. HUSSAIN',
+                name2: ' ',
+                post: 'HOD',
+                post2: '',
+                link: '/aliyu',
+                link2: '',
                 title: 'Maritime',
                 description: `Our seasoned legal team specializes in providing
 comprehensive services tailored to the intricate world of
@@ -261,8 +350,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Efut.src,
+                image4: '',// Adjusted for correct handling of image paths
+                name: 'EFUT OKOI',
+                name2: '',
+                post: 'HOD',
+                post2: '',
+                link: '/efut',
+                link2: '',
                 title: 'Tax matters/Agents',
                 description: `Your go-to destination for expertise in
 tax matters. Our seasoned team of tax agents specializes in
@@ -281,8 +376,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Chioma.src,
+                image4: '',// Adjusted for correct handling of image paths
+                name: 'CHIOMA OKEREKE',
+                name2: ' ',
+                post: 'Counsel',
+                post2: '',
+                link: '/chioma',
+                link2: '',
                 title: 'International Legal Consultants/Advisory',
                 description: `Our expert team
 specializes in providing strategic legal solutions across
@@ -301,8 +402,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Hamidu.src,
+                image4: Clement.src,// Adjusted for correct handling of image paths
+                name: 'HAMIDU MOHAMMED TUKUR',
+                name2: ' CLEMENT OPU IJOM',
+                post: 'Senior Counsel',
+                post2: 'Senior Counsel',
+                link: '/hamidu',
+                link2: '/clement',
                 title: 'Legal Training',
                 description: `Our experienced team specializes in providing
 comprehensive training programs for legal professionals, businesses, and individuals seeking to enhance their legal
@@ -321,8 +428,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Bunmi.src,
+                image4: '',// Adjusted for correct handling of image paths
+                name: 'COMFORT BUNMI ASHAOLU',
+                name2: ' ',
+                post: 'Senior Counsel',
+                post2: '',
+                link: '/ashaolu',
+                link2: '',
                 title: 'Alternative Dispute Resolution',
                 description: `Our seasoned legal team
 specializes in providing effective and efficient resolution
@@ -341,8 +454,14 @@ At M.A Mahmud SAN & Co, we understand that each legal dispute is unique, requiri
                 date: '26 Jan. 2024',
                 image: New1.src, // Adjusted for correct handling of image paths
                 image2: New3.src, // Adjusted for correct handling of image paths
-                name: 'Issa Abba',
-                name2: 'Issa Abba',
+                image3: Partner.src,
+                image4: Edet.src,// Adjusted for correct handling of image paths
+                name: 'OKECHUKWU GEORGE EDEZE',
+                name2: ' EDET UDO AKPAN',
+                post: 'Partner',
+                post2: 'Senior Counsel',
+                link: '/george',
+                link2: '/edet',
                 title: 'Election Petition/Election Petition Matters',
                 description: `Your dedicated
 advocates for Election Petitions. Our legal team specializes in

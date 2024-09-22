@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Logo from '../../../public/images/logo.png'
+import Logo from '../../../public/images/logo3-removebg-preview.png'
 import Linked from '../../../public/images/linked.png'
 import Twit from '../../../public/images/twit.png'
 import Facebook from '../../../public/images/facebook.png'

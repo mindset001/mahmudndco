@@ -6,7 +6,7 @@ import { Divider, Select } from 'antd'
 
 function Team() {
   return (
-    <main className='z-0 w-ful flex flex-col md:flex-row justify-center items-center my-10 md:my-40'>
+    <main className='z-0 w-full flex flex-col md:flex-row justify-center items-center my-10 md:my-40'>
             <div className='w-[80%] md:w-[80%] flex flex-col-reverse md:flex-row justify-center md:justify-between items-center md:items-start'>
                 <div className='w-full md:w-[45%]'>
                     <div>

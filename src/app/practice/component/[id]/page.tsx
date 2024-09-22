@@ -45,13 +45,13 @@ function Page({ params }: ArticlePageProps) {
                             <div className="w-full md:pr-8">
                                 {/* Main Content */}
                                 <div>
-                                    <Image
-                                        src={article.image2} // Updated with the correct image path
-                                        alt="Construction workers"
-                                        width={800}
-                                        height={600}
-                                        className="w-full h-[60vh]"
-                                    />
+                                        <Image
+                                            src={article.image2} // Updated with the correct image path
+                                            alt="Construction workers"
+                                            width={800}
+                                            height={600}
+                                            className="w-full h-[60vh]"
+                                        />
 
                                     <div className="mt-4 text-justify">
                                         <p>{article.description}</p>
@@ -103,21 +103,37 @@ function Page({ params }: ArticlePageProps) {
                         <div>
                             <h1 className='text-[20px] font-[500]'>Lawyers</h1>
                             <Divider className='bg-black w-[190px]' />
+                            <Link href={article.link}>
                             <div>
                                 <div className='bg-[#5C5A5A] w-[160px] h-[173px]'>
-
+                                <Image
+                                        src={article.image3} // Updated with the correct image path
+                                        alt="Construction workers"
+                                        width={800}
+                                        height={600}
+                                        className="h-[173px]"
+                                    />
                                 </div>
                                 <p className='text-[20px] font-[500] mt-2'>{article.name}</p>
-                                <p className='text-[14px] font-[400]'>Lawyer</p>
+                                <p className='text-[14px] font-[400]'>{article.post}</p>
                             </div>
+                            </Link>
 
-                            <div className='mt-4'>
+                           <Link href={article.link2}>
+                           <div className='mt-4'>
                                 <div className='bg-[#5C5A5A] w-[160px] h-[173px]'>
-
+                                <Image
+                                        src={article.image4} // Updated with the correct image path
+                                        alt="Construction workers"
+                                        width={800}
+                                        height={600}
+                                        className=" h-[173px]"
+                                    />
                                 </div>
-                                <p className='text-[20px] font-[500] mt-2'>{article.name}</p>
-                                <p className='text-[14px] font-[400]'>Lawyer</p>
+                                <p className='text-[20px] font-[500] mt-2'>{article.name2}</p>
+                                <p className='text-[14px] font-[400]'>{article.post2}</p>
                             </div>
+                           </Link>
 
                         </div>
 

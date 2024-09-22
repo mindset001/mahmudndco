@@ -1,5 +1,5 @@
 import React from 'react'
-import Lady from '../../../../public/images/hair.png'
+import Lady from '../../../../public/images/principal2.png'
 import Image from 'next/image'
 import { title } from 'process'
 
@@ -14,7 +14,7 @@ function Mission() {
                     {Miss.map((item, i) => (
                         <div key={i}>
                             <ul className='flex text-center'>
-                                <li className='list-disc gap-4 text-[12px] md:text-[18px] font-[400] text-center' >{item.title}</li>
+                                <li className='list-disc gap-4 text-[12px] md:text-[18px] font-[400] text-left' >{item.title}</li>
                             </ul>
                         </div>
                     ))}

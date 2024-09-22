@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 function Body() {
   return (
-    <main className='practice flex flex-col justify-center items-center py-10'>
-      <div className='w-[70%] mt-20 flex flex-col justify-between items-center'>
-        <Divider className='bg-black' />
+    <main className='practice flex flex-col justify-center items-center py-5'>
+      <div className='w-[70%] mt-5 flex flex-col justify-between items-center'>
+        {/* <Divider className='bg-black' /> */}
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8 my-8'>
           {articles.map((article, i) => (
             <div key={i} className=''>

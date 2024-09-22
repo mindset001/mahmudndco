@@ -50,7 +50,7 @@ function Next2() {
                             <p className='text-[#5C5A5A] text-[14px] font-[400]'>05</p>
                             <h1 className='text-[20px] font-[600] ml-4'>Innovative Approach</h1>
                         </div>
-                        <p className='text-justify text-[16px] font-[400] mt-6'>We are not just legal practitioners; we are innovators in our field. [Law Firm Name] leverages cutting-edge technology, adopts forward-thinking strategies, and embraces innovation. This ensures that our legal solutions are not only efficient but also adaptive to the ever-evolving legal landscape.</p>
+                        <p className='text-justify text-[16px] font-[400] mt-6'>We are not just legal practitioners; we are innovators in our field. M.A. Mahmud SAN & Co leverages cutting-edge technology, adopts forward-thinking strategies, and embraces innovation. This ensures that our legal solutions are not only efficient but also adaptive to the ever-evolving legal landscape.</p>
                     </div>
 
                     <div className='w-full md:w-[45%] mt-8'>
